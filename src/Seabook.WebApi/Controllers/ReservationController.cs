@@ -34,7 +34,7 @@ namespace Seabook.WebApi.Controllers
 
 			return reservations.SingleOrDefault(r => r.Id == id);
         }
-		
+        
         [HttpPost("{id}")]
         public void Post(string id, DateTimeOffset outboundDateTime)
         {

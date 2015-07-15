@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Seabook.Application.Domain;
 using Seabook.Application.Events;
 
 namespace Seabook.Application.Store

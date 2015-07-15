@@ -7,11 +7,13 @@
         "Microsoft.AspNet.Server.IIS": "1.0.0-beta4",
         "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4",
         "Microsoft.AspNet.StaticFiles": "1.0.0-beta4",
-        "Seabook.Application": "1.0.0-*"
+        "Seabook.Application": "1.0.0-*",
+        "Kestrel": "1.0.0-beta4"
     },
 
     "commands": {
-        "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000"
+        "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000",
+        "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5001"
     },
 
     "frameworks": {
